@@ -2,6 +2,10 @@
 // Part of the code in this file was adapted from the original VoxelHashing
 // implementation by Niessner et al.
 // https://github.com/niessner/VoxelHashing/blob/master/DepthSensingCUDA/Source/cuda_SimpleMatrixUtil.h
+#ifndef uint
+#define uint unsigned int
+#endif
+
 #include "marching_cubes/mesh_extractor.h"
 #include "utils/utils.h"
 #include "marching_cubes/lookup_tables.h"
