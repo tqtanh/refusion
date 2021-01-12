@@ -43,6 +43,8 @@ url = {https://arxiv.org/abs/1905.02082}
 
 ## Installation guide
 ### Windows
+Add vcpkg tool chain file, please change the directory if your vcpkg direction is different.
+set (CMAKE_TOOLCHAIN_FILE "C:/vcpkg/scripts/buildsystems/vcpkg.cmake")
 
 ### Ubuntu 16.04
 
