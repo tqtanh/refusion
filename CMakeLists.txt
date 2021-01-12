@@ -3,6 +3,9 @@ set (CMAKE_TOOLCHAIN_FILE "C:/vcpkg/scripts/buildsystems/vcpkg.cmake")
 cmake_minimum_required(VERSION 2.8.3)
 project(refusion)
 
+set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} /MT")
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} /MTd")
+
 add_compile_options(-std=c++11)
 
 #find_package(catkin REQUIRED)
