@@ -18,7 +18,7 @@ Emanuele Palazzolo (emanuele.palazzolo@igg.uni-bonn.de)
 
 ## Related publications
 
-If you use this code for your research, please cite:
+If you use this code for your research, please cite the original authors' publication as below:
 
 Emanuele Palazzolo, Jens Behley, Philipp Lottes, Philippe Giguère, Cyrill Stachniss, "ReFusion: 3D Reconstruction in Dynamic Environments for RGB-D Cameras Exploiting Residuals", _arXiv_, 2019 [PDF](https://arxiv.org/pdf/1905.02082.pdf)
 
@@ -35,13 +35,16 @@ url = {https://arxiv.org/abs/1905.02082}
 
 ## Dependencies
 
-* catkin
+* catkin (removed)
 * Eigen = 3.3
 * OpenCV >= 2.4
 * CUDA >= 9.0
 * (optional) Doxygen >= 1.8.11
 
 ## Installation guide
+### Windows
+Add vcpkg tool chain file, please change the directory if your vcpkg direction is different.
+set (CMAKE_TOOLCHAIN_FILE "C:/vcpkg/scripts/buildsystems/vcpkg.cmake")
 
 ### Ubuntu 16.04
 
